@@ -96,13 +96,13 @@ In the full run after the prompt change, `nda-survival` failed twice because the
 - Scoring checks citations and key facts with literal text matching, not the quality of the wording.
 - Keyword search only matches exact words. I haven't tested paraphrased questions ("cancel" instead of "terminate").
 
-## Stretch
+## Future Upgrades
 
 1. **Embeddings / hybrid retrieval.** Anthropic doesn't offer an embeddings endpoint, so use a separate provider (Voyage AI is the one Anthropic recommends) or a local model. Add eval questions that paraphrase ("cancel" instead of "terminate") and compare recall@5 for keyword vs embeddings vs both.
 2. **Thin React front end** over the same agent, so it reads as a full-stack project.
 3. **Prompt version flag** to compare two system prompts on the same eval set.
 
-## Be able to explain (in your own words)
+## My notes/learnings
 
 - **System prompt:** what each rule is for and which eval case would catch its removal.
 - **Tool calls:** the `tool_use` / `tool_result` round trip, and why the loop appends the assistant message before the results.
