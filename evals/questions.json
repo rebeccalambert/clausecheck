@@ -1,0 +1,13 @@
+[
+  { "id": "renewal-notice", "question": "How much notice is needed to stop the SaaS agreement from auto-renewing?", "expectCitations": ["SAAS-2.1"], "mustInclude": ["60"] },
+  { "id": "payment-terms", "question": "How many days does the customer have to pay an invoice?", "expectCitations": ["SAAS-3.1"], "mustInclude": ["30"] },
+  { "id": "late-interest", "question": "What interest is charged on overdue invoices?", "expectCitations": ["SAAS-3.3"], "mustInclude": ["1.5%"] },
+  { "id": "uptime-credit", "question": "What credit does the customer get if availability drops to 98.5% in a month?", "expectCitations": ["SAAS-5.2"], "mustInclude": ["25%"] },
+  { "id": "breach-notice", "question": "How quickly must the provider tell us about a security breach?", "expectCitations": ["SAAS-7.1"], "mustInclude": ["72"] },
+  { "id": "liability-cap", "question": "What is the liability cap in the SaaS agreement?", "expectCitations": ["SAAS-9.1"], "mustInclude": ["12"] },
+  { "id": "nda-survival", "question": "How long do NDA confidentiality obligations last after the NDA ends?", "expectCitations": ["NDA-4"], "mustInclude": ["3|three"] },
+  { "id": "nda-return", "question": "How long does the recipient have to return or destroy confidential information after a request?", "expectCitations": ["NDA-7"], "mustInclude": ["15"] },
+  { "id": "decline-noncompete", "question": "Is there a non-compete clause that stops either party from working with competitors?", "expectCitations": [] },
+  { "id": "decline-governing-law", "question": "Which state's law governs the SaaS agreement?", "expectCitations": [] },
+  { "id": "decline-price", "question": "What is the monthly subscription price?", "expectCitations": [] }
+]
